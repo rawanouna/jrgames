@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+    <title>contact form</title>
+	
+	<style>    
+      
+        
+        .Menu td {
+            border-top: solid blue;
+            padding-top: 30px;
+            margin: 100px;
+            border: none;
+            color: blue;
+            text-align: right;
+            width: 80px;
+            text-align: center;
+			}
+.rounded{
+	border-radius: 50%;
+}
+
+.overline:link, .overline:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 45px;
+  padding: 25px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   width: 150px;
+  height: 15px;
+}
+
+.overline:hover, .overline:active {
+  background-color:white;
+  color: blue;
+  text-decoration:  overline;
+}
+
+        .Menu {
+            height: 50px;
+            margin-top: 50px;
+            position: relative;
+			 text-align: center;
+        }
+		</style>
+	
+</head>
+
+<body>
+
+
+        <table id="table1" align="right" >
+            <tr>
+                <td  ><a href="websitefinal.html" class="overline"  >Games</a></td>
+
+                <td><a href="About-us.html" class="overline"> About us</a></td>
+
+                <td><a href="Contactus.html" class="overline">Contact Us </a></td>
+            </tr>
+
+        </table>
+
+<link href="contact.css" rel="stylesheet">
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h1 class="fcf-h3"><p style="color:blue">Contact us</p></h1>
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>     
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
